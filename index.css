@@ -61,9 +61,26 @@
 body{
     background-color: rgb(217, 231, 231);
     text-align: center;
+    padding: 20px 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.body{
+    align-items: center;
+    background-color: rgb(180, 211, 226);
+    box-shadow: 0 10px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
 .dark-mode{
+    background-color: rgb(13, 11, 11);
+    color: #fcfffa;
+}
+.dark-mode .body{
     background-color: rgb(32, 28, 28);
     color: #fcfffa;
    
@@ -95,5 +112,10 @@ body{
 } .pics:hover{
     transform: scale(1.2);
     background: #7fffd4;
+    z-index: 2;
+}
+#toggle:hover{
+    background-color: #36293c;
+    transform:scale(1.2);
     z-index: 2;
 }
